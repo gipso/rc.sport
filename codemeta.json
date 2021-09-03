@@ -1,0 +1,275 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "sport",
+  "description": "Research compendium of the biological rhythms and sports \n      project: a systematic quantitative literature review.",
+  "name": "sport: R Package for the Biological Rhythms and Sports Project",
+  "codeRepository": "https://github.com/gipso/sport/",
+  "relatedLink": "https://gipso.github.io/sport/",
+  "issueTracker": "https://github.com/gipso/sport/issues/",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Rafael",
+      "familyName": "Salgueiro Poli",
+      "email": "rafael.poli@usp.br",
+      "@id": "https://orcid.org/0000-0002-2017-1216"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Vartanian",
+      "email": "danvartan@gmail.com",
+      "@id": "https://orcid.org/0000-0001-7782-759X"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Ana Amelia",
+      "familyName": "Benedito-Silva",
+      "email": "aamelia@usp.br",
+      "@id": "https://orcid.org/0000-0003-4976-2623"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Mario",
+      "familyName": "Pedrazzoli",
+      "email": "pedrazzo@usp.br",
+      "@id": "https://orcid.org/0000-0002-5257-591X"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Rafael",
+      "familyName": "Salgueiro Poli",
+      "email": "rafael.poli@usp.br",
+      "@id": "https://orcid.org/0000-0002-2017-1216"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Vartanian",
+      "email": "danvartan@gmail.com",
+      "@id": "https://orcid.org/0000-0001-7782-759X"
+    }
+  ],
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Interdisciplinary Sleep Research Group (GIPSO)"
+    },
+    {
+      "@type": "Organization",
+      "name": "University of Sao Paulo (USP)"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Vartanian",
+      "email": "danvartan@gmail.com",
+      "@id": "https://orcid.org/0000-0001-7782-759X"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=covr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "knitr",
+      "name": "knitr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=knitr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "mockr",
+      "name": "mockr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=mockr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rmarkdown",
+      "name": "rmarkdown",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "spelling",
+      "name": "spelling",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=spelling"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 4.1"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "checkmate",
+      "name": "checkmate",
+      "version": ">= 2.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=checkmate"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "cli",
+      "name": "cli",
+      "version": ">= 3.0.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=cli"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "dplyr",
+      "name": "dplyr",
+      "version": ">= 1.0.7",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=dplyr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "lifecycle",
+      "name": "lifecycle",
+      "version": ">= 1.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "sqlr",
+      "name": "sqlr",
+      "sameAs": "https://github.com/gipso/sqlr"
+    }
+  ],
+  "fileSize": "0KB",
+  "contIntegration": "https://codecov.io/gh/gipso/sport",
+  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
+  "releaseNotes": "https://github.com/gipso/sport/blob/master/NEWS.md",
+  "keywords": [
+    "r-package",
+    "sleep",
+    "chronobiology",
+    "systematic-review"
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "datePublished": "2021",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Rafael", "Salgueiro"],
+          "familyName": "Poli"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Daniel",
+          "familyName": "Vartanian"
+        },
+        {
+          "@type": "Person",
+          "givenName": ["Ana", "Amelia"],
+          "familyName": "Benedito-Silva"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Mario",
+          "familyName": "Pedrazzoli"
+        }
+      ],
+      "name": "{sport}: an R package with the research compendium of the biological rhythms and sports project: a systematic quantitative literature review",
+      "url": "https://gipsousp.github.io/sport/",
+      "description": "Lifecycle: experimental"
+    }
+  ],
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  }
+}

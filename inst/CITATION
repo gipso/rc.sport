@@ -1,0 +1,30 @@
+citHeader("To cite {sport} in publications use:")
+
+citEntry(
+  entry       = "Unpublished",
+  title       = paste0("{sport}:", " ",
+                       "an R package with the research compendium of the", " ",
+                       "biological rhythms and sports", " ",
+                       "project:", " ",
+                       "a systematic quantitative literature review"),
+  author      = personList(as.person("Rafael Salgueiro Poli"),
+                           as.person("Daniel Vartanian"),
+                           as.person("Ana Amelia Benedito-Silva"),
+                           as.person("Mario Pedrazzoli")),
+  year        = "2021",
+  url         = paste0("https://gipsousp.github.io/",
+                       "sport/"),
+  textVersion = paste0("Poli, R. S.", ", ",
+                       "Vartanian, D.", ", ",
+                       "Benedito-Silva, A. A.", ", ",
+                       "Pedrazzoli, M.", " ",
+                       "(2021)",  ". ",
+                       "{sport}:", " ",
+                       "an R package with the research compendium of the", " ",
+                       "biological rhythms and sports", " ",
+                       "project:", " ",
+                       "a systematic quantitative literature review.", " ",
+                       "Retrieved from https://gipso.github.io/",
+                       "sport/", "."),
+  note        = "Lifecycle: experimental"
+)
