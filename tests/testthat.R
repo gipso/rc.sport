@@ -36,26 +36,10 @@ test_check("sport")
 # googlesheets4::gs4_auth()
 #
 # sqlr::write_metadata("1uojzW2XVu1vuCJhGzCBy5P-LyKkKB8IqQxX7RMgRBDA")
-# devtools::document()
-# devtools::load_all()
 # sqlr::write_sheet()
-# devtools::document()
-# devtools::load_all()
-#
-# .rs.restartR()
-#
-# devtools::install()
-#
-# devtools::load_all(".")
+# sqlr::write_query()
 # sqlr::build_reference()
-#
-# devtools::document()
-# devtools::load_all()
 #
 # sqlr::write_trial()
 # nrow(dplyr::filter(reference, criteria_id == "DUP")) +
 # sqlr::sheet_nrow("trial_nr1") == nrow(reference)
-#
-# .rs.restartR()
-#
-# devtools::install()
