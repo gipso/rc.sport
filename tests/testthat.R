@@ -31,15 +31,33 @@ test_check("sport")
 # usethis::use_pkgdown_github_pages()
 # usethis::use_tidy_description()
 
-# SQLR System
+# # SQLR System
 #
 # googlesheets4::gs4_auth()
 #
-# sqlr::write_metadata("1uojzW2XVu1vuCJhGzCBy5P-LyKkKB8IqQxX7RMgRBDA")
+# ## Processing and writing queries on 'search'
+#
+# sqlr::write_metadata("[ADD SHEETS ID]")
 # sqlr::write_sheet()
 # sqlr::write_query()
-# sqlr::build_reference()
 #
-# sqlr::write_trial()
-# nrow(dplyr::filter(reference, criteria_id == "DUP")) +
-# sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+# ## Processing and writing 'reference' and 'trial_dup'
+#
+# sqlr::normalize_extdata()
+# sqlr::write_sheet()
+# sqlr::build_reference()
+# sqlr::write_trial("DUP")
+#
+# ## Processing and writing 'trial_nr1'
+# ## Approve the previous trial in the 'trial' table before running this
+#
+# sqlr::write_sheet()
+# sqlr::write_trial("NR1")
+#
+# ## Updating 'reference' and populating 'trial_*'
+# ## Approve the previous trial in the 'trial' table before running this
+#
+# sqlr::write_metadata("[ADD SHEETS ID]")
+# sqlr::write_sheet()
+# sqlr::update_reference("[ADD TRIAL ID]")
+# sqlr::write_trial("[ADD TRIAL ID]")
