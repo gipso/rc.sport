@@ -6,8 +6,7 @@
 \alias{sport-package}
 \title{sport: R Package for the Biological Rhythms and Sports Project}
 \description{
-Research compendium of the biological rhythms and sports 
-      project: a systematic quantitative literature review.
+Research compendium of the biological rhythms and sports project: a systematic quantitative literature review.
 }
 \seealso{
 Useful links:
