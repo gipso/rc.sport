@@ -17,7 +17,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
   "author": [
     {
       "@type": "Person",
@@ -32,13 +32,6 @@
       "familyName": "Vartanian",
       "email": "danvartan@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
-    },
-    {
-      "@type": "Person",
-      "givenName": "Ana Amelia",
-      "familyName": "Benedito-Silva",
-      "email": "aamelia@usp.br",
-      "@id": "https://orcid.org/0000-0003-4976-2623"
     },
     {
       "@type": "Person",
@@ -225,8 +218,8 @@
       "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/gipso/sport",
+  "fileSize": "36695.747KB",
+  "contIntegration": ["https://github.com/gipso/sport/actions", "https://codecov.io/gh/gipso/sport"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/sport/blob/master/NEWS.md",
   "keywords": [
@@ -252,17 +245,12 @@
         },
         {
           "@type": "Person",
-          "givenName": ["Ana", "Amelia"],
-          "familyName": "Benedito-Silva"
-        },
-        {
-          "@type": "Person",
           "givenName": "Mario",
           "familyName": "Pedrazzoli"
         }
       ],
       "name": "{sport}: an R package with the research compendium of the biological rhythms and sports project: a systematic quantitative literature review",
-      "url": "https://gipsousp.github.io/sport/",
+      "url": "https://gipso.github.io/sport/",
       "description": "Lifecycle: experimental"
     }
   ],
@@ -271,5 +259,6 @@
     "@type": "Organization",
     "name": "Comprehensive R Archive Network (CRAN)",
     "url": "https://cran.r-project.org"
-  }
+  },
+  "readme": "https://github.com/gipso/sport/blob/main/README.md"
 }

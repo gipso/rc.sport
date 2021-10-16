@@ -11,7 +11,7 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/gipso/sport/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/sport/actions)
-[![codecov](https://codecov.io/gh/gipso/sport/branch/main/graph/badge.svg?token=2bnHxbdw4M)](https://codecov.io/gh/gipso/sport)
+[![codecov](https://codecov.io/gh/gipso/sport/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/sport)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
@@ -31,14 +31,14 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 `sport` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development, that means that people can use the package and
-provide feedback, but it comes with no promises for long term stability.
+stage of development. That means people can use the package and provide
+feedback, but it comes with no promises for long term stability.
 
 You can install `sport` from GitHub with:
 
 ``` r
-# install.packages("pak")
-pak::pkg_install("gipso/sport")
+# install.packages("remotes")
+remotes::install_github("gipso/sport")
 ```
 
 ## Citation
@@ -52,18 +52,18 @@ citation("sport")
 #> 
 #> To cite {sport} in publications use:
 #> 
-#>   Poli, R. S., Vartanian, D., Benedito-Silva, A. A., Pedrazzoli, M.
-#>   (2021). {sport}: an R package with the research compendium of the
-#>   biological rhythms and sports project: a systematic quantitative
-#>   literature review. Retrieved from https://gipso.github.io/sport/.
+#>   Poli, R. S., Vartanian, D., Pedrazzoli, M. (2021). {sport}: an R
+#>   package with the research compendium of the biological rhythms and
+#>   sports project: a systematic quantitative literature review.
+#>   Retrieved from https://gipso.github.io/sport/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
 #>     title = {{sport}: an R package with the research compendium of the biological rhythms and sports project: a systematic quantitative literature review},
-#>     author = {Rafael Salgueiro Poli and Daniel Vartanian and Ana Amelia Benedito-Silva and Mario Pedrazzoli},
+#>     author = {Rafael Salgueiro Poli and Daniel Vartanian and Mario Pedrazzoli},
 #>     year = {2021},
-#>     url = {https://gipsousp.github.io/sport/},
+#>     url = {https://gipso.github.io/sport/},
 #>     note = {Lifecycle: experimental},
 #>   }
 ```

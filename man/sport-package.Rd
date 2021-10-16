@@ -23,7 +23,6 @@ Useful links:
 Authors:
 \itemize{
   \item Rafael Salgueiro Poli \email{rafael.poli@usp.br} (\href{https://orcid.org/0000-0002-2017-1216}{ORCID}) [copyright holder]
-  \item Ana Amelia Benedito-Silva \email{aamelia@usp.br} (\href{https://orcid.org/0000-0003-4976-2623}{ORCID}) [scientific advisor]
   \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
 }
 
