@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 library(sport)
 ```
 
-# sport
+# sport <a href='https://gipso.github.io/sport'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
@@ -25,9 +25,9 @@ library(sport)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
-`sport` is an R package with the biological rhythms and sports research compendium. The aim of `sport` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
+`sport` is an R package with the research compendium of the GIPSO's biological rhythms and sports systematic quantitative literature review. The aim of `sport` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
 
-The assemble of this package was inspired by Ben Marwick, Carl Boettiger & Lincoln Mullen article ["Packaging Data Analytical Work Reproducibly Using R (and Friends)"](https://doi.org/10.1080/00031305.2017.1375986).
+The assemble of this package was inspired by Ben Marwick, Carl Boettiger & Lincoln Mullen's article ["Packaging Data Analytical Work Reproducibly Using R (and Friends)"](https://doi.org/10.1080/00031305.2017.1375986).
 
 Learn more about Systematic Quantitative Literature Reviews (SQLR) [here](https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review).
 

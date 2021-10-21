@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "sport",
-  "description": "Research compendium of the biological rhythms and sports \n      project: a systematic quantitative literature review.",
-  "name": "sport: R Package for the Biological Rhythms and Sports Project",
+  "description": "An R package with the research compendium of the GIPSO's \n      biological rhythms and sports systematic quantitative literature review.",
+  "name": "sport: Research Compendium of the GIPSO's Biological Rhythms and Sports SQLR",
   "codeRepository": "https://github.com/gipso/sport/",
   "relatedLink": "https://gipso.github.io/sport/",
   "issueTracker": "https://github.com/gipso/sport/issues/",
@@ -218,7 +218,7 @@
       "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "fileSize": "36695.747KB",
+  "fileSize": "36708.884KB",
   "contIntegration": ["https://github.com/gipso/sport/actions", "https://codecov.io/gh/gipso/sport"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/sport/blob/master/NEWS.md",
@@ -249,7 +249,7 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "{sport}: an R package with the research compendium of the biological rhythms and sports project: a systematic quantitative literature review",
+      "name": "{sport}: an R package with the research compendium of the GIPSO's biological rhythms and sports systematic quantitative literature review",
       "url": "https://gipso.github.io/sport/",
       "description": "Lifecycle: experimental"
     }

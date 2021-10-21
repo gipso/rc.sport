@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sport
+# sport <a href='https://gipso.github.io/sport'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
 <!-- badges: start -->
 
@@ -16,12 +16,13 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
-`sport` is an R package with the biological rhythms and sports research
-compendium. The aim of `sport` is to facilitate the research work, in
-addition to contributing to the reproducibility of the research.
+`sport` is an R package with the research compendium of the GIPSO’s
+biological rhythms and sports systematic quantitative literature review.
+The aim of `sport` is to facilitate the research work, in addition to
+contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
-& Lincoln Mullen article [“Packaging Data Analytical Work Reproducibly
+& Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
 Using R (and Friends)”](https://doi.org/10.1080/00031305.2017.1375986).
 
 Learn more about Systematic Quantitative Literature Reviews (SQLR)
@@ -53,14 +54,14 @@ citation("sport")
 #> To cite {sport} in publications use:
 #> 
 #>   Poli, R. S., Vartanian, D., Pedrazzoli, M. (2021). {sport}: an R
-#>   package with the research compendium of the biological rhythms and
-#>   sports project: a systematic quantitative literature review.
+#>   package with the research compendium of the GIPSO's biological
+#>   rhythms and sports systematic quantitative literature review.
 #>   Retrieved from https://gipso.github.io/sport/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{sport}: an R package with the research compendium of the biological rhythms and sports project: a systematic quantitative literature review},
+#>     title = {{sport}: an R package with the research compendium of the GIPSO's biological rhythms and sports systematic quantitative literature review},
 #>     author = {Rafael Salgueiro Poli and Daniel Vartanian and Mario Pedrazzoli},
 #>     year = {2021},
 #>     url = {https://gipso.github.io/sport/},

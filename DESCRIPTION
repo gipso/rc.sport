@@ -1,5 +1,5 @@
 Package: sport
-Title: R Package for the Biological Rhythms and Sports Project
+Title: Research Compendium of the GIPSO's Biological Rhythms and Sports SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Rafael",
@@ -22,8 +22,8 @@ Authors@R:
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: Research compendium of the biological rhythms and sports 
-      project: a systematic quantitative literature review.
+Description: An R package with the research compendium of the GIPSO's 
+      biological rhythms and sports systematic quantitative literature review.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/sport/, 
      https://github.com/gipso/sport/
