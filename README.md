@@ -57,7 +57,7 @@ citation("sport")
 #>   Poli, R. S., Vartanian, D., Pedrazzoli, M. (2021). {sport}: an R
 #>   package with the research compendium of the GIPSO's biological
 #>   rhythms and sports systematic quantitative literature review.
-#>   Retrieved from https://gipso.github.io/sport/.
+#>   https://gipso.github.io/sport/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 

@@ -200,6 +200,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "gutils",
+      "name": "gutils",
+      "sameAs": "https://github.com/gipso/gutils"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
       "version": ">= 1.0.0",
@@ -218,8 +224,8 @@
       "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "fileSize": "36708.884KB",
-  "contIntegration": ["https://github.com/gipso/sport/actions", "https://codecov.io/gh/gipso/sport"],
+  "fileSize": "36708.496KB",
+  "contIntegration": ["https://github.com/gipso/sport/actions", "https://codecov.io/gh/gipso/sport?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/sport/blob/master/NEWS.md",
   "keywords": [
