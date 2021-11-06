@@ -1,0 +1,50 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "sport" in publications use:'
+type: software
+license: MIT
+title: 'sport: Research Compendium of the GIPSO''s Biological Rhythms and Sports SQLR'
+version: 0.0.0.9000
+abstract: An R package with the research compendium of the GIPSO's biological rhythms
+  and sports systematic quantitative literature review.
+authors:
+- family-names: Salgueiro Poli
+  given-names: Rafael
+  email: rafael.poli@usp.br
+  orcid: https://orcid.org/0000-0002-2017-1216
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+- family-names: Pedrazzoli
+  given-names: Mario
+  email: pedrazzo@usp.br
+  orcid: https://orcid.org/0000-0002-5257-591X
+preferred-citation:
+  type: unpublished
+  title: 'sport: an R package with the research compendium of the GIPSO''s biological
+    rhythms and sports systematic quantitative literature review'
+  authors:
+  - family-names: Poli
+    given-names: Rafael Salgueiro
+  - family-names: Vartanian
+    given-names: Daniel
+  - family-names: Pedrazzoli
+    given-names: Mario
+  year: '2021'
+  url: https://gipso.github.io/sport/
+repository: https://CRAN.R-project.org/package=sport
+repository-code: https://github.com/gipso/sport/issues/
+url: https://gipso.github.io/sport/
+contact:
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+identifiers:
+- type: url
+  value: https://github.com/gipso/sport/

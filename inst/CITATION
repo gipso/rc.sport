@@ -14,7 +14,7 @@ citEntry(
   url         = paste0("https://gipso.github.io/",
                        "sport/"),
   textVersion = paste0("Poli, R. S.", ", ",
-                       "Vartanian, D.", ", ",
+                       "Vartanian, D.", ", & ",
                        "Pedrazzoli, M.", " ",
                        "(2021)",  ". ",
                        "{sport}:", " ",
@@ -23,6 +23,6 @@ citEntry(
                        "biological rhythms and sports", " ",
                        "systematic quantitative literature review.", " ",
                        "https://gipso.github.io/",
-                       "sport/", "."),
+                       "sport/"),
   note        = "Lifecycle: experimental"
 )
