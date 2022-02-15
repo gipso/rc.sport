@@ -60,8 +60,7 @@ test_check("sport")
 #
 # ## Get statistics about a trial or selection process in general
 #
-# sqlr::selection_stats("[ADD TRIAL ID]")
-# sqlr::selection_stats()
+# sqlr::selection_stats(trial = "[ADD TRIAL ID]")
 #
 # ## Updating 'reference' and populating 'trial_*'
 # ## Approve the previous trial in the 'trial' table before running this
@@ -70,4 +69,4 @@ test_check("sport")
 # sqlr::write_sheet()
 # sqlr::update_reference("[ADD TRIAL ID]")
 # sqlr::write_trial("[ADD TRIAL ID]")
-# sqlr::selection_stats(package = "[ADD PACKAGE NAME]")
+# sqlr::selection_stats()

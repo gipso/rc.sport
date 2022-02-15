@@ -4,11 +4,11 @@
 \name{sport-package}
 \alias{sport}
 \alias{sport-package}
-\title{sport: Research Compendium of the GIPSO's Biological Rhythms and Sports SQLR}
+\title{sport: Research Compendium of the GIPSO Biological Rhythms and Sports SQLR}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-An R package with the research compendium of the GIPSO's biological rhythms and sports systematic quantitative literature review.
+Research compendium of the GIPSO biological rhythms and sports systematic quantitative literature review.
 }
 \seealso{
 Useful links:
