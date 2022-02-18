@@ -1,5 +1,5 @@
-Package: sport
-Title: Research Compendium of the GIPSO Biological Rhythms and Sports SQLR
+Package: rc.sport
+Title: Research Compendium of the GIPSO Biological Rhythms and Sport SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Rafael",
@@ -21,12 +21,12 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: Research compendium of the GIPSO biological rhythms and sports 
+Description: Research compendium of the GIPSO biological rhythms and sport 
     systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipso.github.io/sport/, 
-     https://github.com/gipso/sport/
-BugReports: https://github.com/gipso/sport/issues/
+URL: https://gipso.github.io/rc.sport/, 
+     https://github.com/gipso/rc.sport/
+BugReports: https://github.com/gipso/rc.sport/issues/
 Depends:
     R (>= 4.1)
 Imports: 

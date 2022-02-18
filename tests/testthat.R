@@ -1,8 +1,8 @@
 library(checkmate)
-library(sport)
+library(rc.sport)
 library(testthat)
 
-test_check("sport")
+test_check("rc.sport")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C)).
 #
@@ -50,7 +50,7 @@ test_check("sport")
 # sqlr::write_sheet()
 # sqlr::build_reference()
 # sqlr::write_trial("DUP")
-# sqlr::selection_stats("DUP")
+# sqlr::selection_stats(trial = "DUP")
 #
 # ## Processing and writing 'trial_nr1'
 # ## Approve the previous trial in the 'trial' table before running this

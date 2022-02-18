@@ -1,10 +1,10 @@
-#' Get paths to `sport` raw data
+#' Get paths to `rc.sport` raw data
 #'
 #' @description
 #'
 #' `r lifecycle::badge("experimental")`
 #'
-#' `raw_data()` returns the raw data paths of the `sport` package.
+#' `raw_data()` returns the raw data paths of the `rc.sport` package.
 #'
 #' @param type (optional) a string indicating the file type of the raw data
 #'   (default: `NULL`).
@@ -27,5 +27,5 @@
 #' raw_data()
 #' }
 raw_data <- function(type = NULL, file = NULL) {
-    gutils::raw_data_2(type, file, package = "sport")
+    gutils::raw_data_2(type, file, package = "rc.sport")
 }
