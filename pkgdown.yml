@@ -2,8 +2,8 @@ pandoc: 2.7.3
 pkgdown: 2.0.2
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-02-16T00:08Z
+last_built: 2022-02-18T04:34Z
 urls:
-  reference: https://gipso.github.io/sport/reference
-  article: https://gipso.github.io/sport/articles
+  reference: https://gipso.github.io/rc.sport/reference
+  article: https://gipso.github.io/rc.sport/articles
 
