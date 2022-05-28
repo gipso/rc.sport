@@ -14,5 +14,5 @@
 ^man-roxygen$
 ^Meta$
 ^pkgdown$
+^rc\.sport\.Rproj$
 ^README\.Rmd$
-^rc.sport\.Rproj$

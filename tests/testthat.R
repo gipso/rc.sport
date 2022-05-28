@@ -31,8 +31,12 @@ test_check("rc.sport")
 # usethis::use_coverage()
 # usethis::use_github_action("check-pak")
 # usethis::use_github_action("test-coverage-pak")
-# usethis::use_logo("./.archive/ai/hex-logo.png")
+# usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
+
+# # Data packages
+# 
+# See: <https://docs.ropensci.org/frictionless/>
 
 # # SQLR system
 #
@@ -46,7 +50,7 @@ test_check("rc.sport")
 #
 # ## Processing and writing 'reference' and 'trial_dup'
 #
-# sqlr::normalize_extdata()
+# gutils::normalize_extdata()
 # sqlr::write_sheet()
 # sqlr::build_reference()
 # sqlr::write_trial("DUP")

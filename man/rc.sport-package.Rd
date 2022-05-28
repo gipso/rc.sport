@@ -6,7 +6,7 @@
 \alias{rc.sport-package}
 \title{rc.sport: Research Compendium of the GIPSO Biological Rhythms and Sport SQLR}
 \description{
-Research compendium of the GIPSO biological rhythms and sport systematic quantitative literature review.
+Research compendium of the Interdisciplinary Sleep Research Group (GIPSO) biological rhythms and sport systematic quantitative literature review.
 }
 \seealso{
 Useful links:
